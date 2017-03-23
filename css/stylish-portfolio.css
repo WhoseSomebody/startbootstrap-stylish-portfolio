@@ -305,10 +305,23 @@ hr.small {
     text-align: center;
     /*height: 100px;*/
 }
+.stack .col-md-3 {
+    cursor: pointer;
+    filter: contrast(.0) sepia(109%) hue-rotate(134deg) brightness(1) saturate(4);
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
 .stack img {
     max-width: 100%;
     max-height: 100%;
     margin: auto auto;
+}
+.stack .col-md-3:hover {
+    filter: none;
 }
 
 @media(max-width:768px) {
