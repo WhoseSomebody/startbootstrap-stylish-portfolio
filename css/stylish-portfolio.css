@@ -273,6 +273,7 @@ hr.small {
     height: 0;
     overflow: hidden;
     border-radius: 100%;
+
 }
 
 .team .member-img img {
@@ -280,6 +281,8 @@ hr.small {
     height: 100%;
     position: absolute;
     left: 0;
+    border-radius: 100%;
+
 }
 .team h2 {
     text-align: center;
