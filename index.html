@@ -175,36 +175,40 @@
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                            <div id="showP1" class="portfolio-item">
+                                <a>
+                                    <img class="img-portfolio img-responsive" src="img/portfolio/1.jpg">
                                 </a>
+                                <div class="project-hover">Screen</div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                            <div id="showP2" class="portfolio-item">
+                                <a>
+                                    <img class="img-portfolio img-responsive" src="img/portfolio/2.jpg">
                                 </a>
+                                <div class="project-hover">Universal</div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                            <div id="showP3" class="portfolio-item">
+                                <a>
+                                    <img class="img-portfolio img-responsive" src="img/portfolio/3.jpg">
                                 </a>
+                                <div class="project-hover">Black and White</div>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                            <div id="showP4" class="portfolio-item">
+                                <a>
+                                    <img class="img-portfolio img-responsive" src="img/portfolio/4.jpg">
                                 </a>
+                                <div class="project-hover">IT Worker</div>
                             </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                    <!--<a href="#" class="btn btn-dark">View More Items</a>-->
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -273,7 +277,7 @@
                             <h3>Анна Писаренко</h3>
                             <p>Web-Designer</p>
                         </div>
-                        <div class="boxContent"> <a href="mailto:Anna.dmitrievna.pisarenko@gmail.com">j.doe@fat-catz.com</a>
+                        <div class="boxContent"> <a href="mailto:Anna.dmitrievna.pisarenko@gmail.com">anna.dmitrievna.pisarenko@gmail.com</a>
                             <br>
                             <br>
                             <p>
@@ -289,7 +293,7 @@
                             <h3>Сергій Красников</h3>
                             <p>QA-Engineer</p>
                         </div>
-                        <div class="boxContent"> <a href="mailto:your.email@little-neko.com">sergei29041996@gmail.com</a>
+                        <div class="boxContent"> <a href="mailto:sergei29041996@gmail.com">sergei29041996@gmail.com</a>
                             <br>
                             <br>
                             <p>
@@ -321,11 +325,11 @@
                             <h3>Сергій Ящук</h3>
                             <p>Back-End Developer</p>
                         </div>
-                        <div class="boxContent"> <a href="mailto:your.email@little-neko.com">p.anderson66@fat-catz.com</a>
+                        <div class="boxContent"> <a href="mailto:serg.yaschuk@gmail.com">serg.yaschuk@gmail.com</a>
                             <br>
                             <br>
                             <p>
-                                <i>"Тут скоро буде текст. Він буде про якісь захоплення та ставлення до світу, оточуючих речей."</i>
+                                <i>"Намагаюся отримувати задоволення із кожної дрібниці. Люблю проводити час із хорошими та веселими людьми :) "</i>
                             </p>
                         </div>
                     </article>
@@ -337,7 +341,7 @@
                             <h3>Віталій Домініченко</h3>
                             <p>Front-End Developer</p>
                         </div>
-                        <div class="boxContent"> <a href="mailto:your.email@little-neko.com">whosesomebody@gmail.com</a>
+                        <div class="boxContent"> <a href="mailto:whosesomebody@gmail.com">whosesomebody@gmail.com</a>
                             <br>
                             <br>
                             <p>
@@ -418,6 +422,72 @@
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
 
+
+    <!--Modals-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="p1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./img/portfolio/1.jpg">
+                    <h4 class="modal-title" id="myModalLabel">Screen</h4>
+                    <br/>
+                    <div>
+                        Screen is nice one page theme implementing one page scroll. You can use it in many ways - to build portfolio, tell a story, present your pictures. This Free Bootstrap template is built with Bootstrap 3.3.2, so fully responsive and should be working well on majority of the devices out there :)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="p2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./img/portfolio/2.jpg">
+                    <h4 class="modal-title" id="myModalLabel">Universal</h4>
+                    <br/>
+                    <div>
+                        Universal is clean and stylish universal website template built with Bootstrap 3.3. It stands out with its clean design and elegant typography. It is one of the most complex free Bootstrap templates and with almost 30k downloads (as of Feb 2017), it is also my most popular Bootstrap freebie. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="p3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./img/portfolio/3.jpg">
+                    <h4 class="modal-title" id="myModalLabel">Black and White</h4>
+                    <br/>
+                    <div>
+                        Black and White is minimalistic theme based on great images and clean typography. It certainly could be used to build cool portfolio or classy landing page. This one page Bootstrap theme includes: - full screen intro image, - sticky navbar, - services section, - portfolio or gallery section with lightbox, - contact form , - custom style Google Map (grayscale theme).
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="p4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./img/portfolio/4.jpg">
+                    <h4 class="modal-title" id="myModalLabel">IT Worker</h4>
+                    <br/>
+                    <div>
+                        IT Worker could be your new perfect portfolio template. It contains all the necessary elements for successful portfolio, is based on one of the latest Bootstrap versions and is fully responsive. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modals End-->
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -426,6 +496,18 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
+    $('#showP1').click(e => {
+        $('#p1').modal();
+    })
+    $('#showP2').click(e => {
+        $('#p2').modal();
+    })
+    $('#showP3').click(e => {
+        $('#p3').modal();
+    })
+    $('#showP4').click(e => {
+        $('#p4').modal();
+    })
     // Closes the sidebar menu
     $("#menu-close").click(function(e) {
         e.preventDefault();
